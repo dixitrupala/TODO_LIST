@@ -1,0 +1,41 @@
+.main-div {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;500&display=swap");
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #8184a1;
+  line-height: 1.3;
+}
+.showItems{
+
+  color: #fff;
+  margin: 10px 0;
+}
+.eachItems {
+  background: #575b71;  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  margin: 10px 0;
+}
+.eachItems h3{
+  margin: 0;
+}
+.effect{
+  background-color: lightcoral;
+  border: transparent;
+  padding: 5px;
+  border-radius: 10px;
+}
